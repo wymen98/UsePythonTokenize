@@ -24,5 +24,6 @@ for token in tokens:
 freq = nltk.FreqDist(clean_tokens)
 for key,val in freq.items():
     print (str(key) + ':' + str(val))
-    
+
+#use mathlab to plot a graph
 freq.plot(20, cumulative=False)
